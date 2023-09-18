@@ -9,10 +9,11 @@ edition = "2021"
 actix-web = "^4"
 uuid = { version = "^0.8", features = ["v4"] }
 serde = { version = "^1", features = ["derive"] }
-aws-config = "^0.8"
-aws-sdk-dynamodb = "^0.8"
 env_logger = "0.8"
 log = "^0.4"
 strum_macros = "^0.24"
 strum = { version = "^0.24", features = ["derive"] }
 derive_more = "^0.99"
+tokio = "1.28.0"
+rand = "0.8.5"
+regex = "1.9.5"
